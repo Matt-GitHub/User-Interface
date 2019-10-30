@@ -75,7 +75,6 @@ body {
 	 height: 60px;
 	 box-sizing: border-box;
 	 display: inline-block;
-	 background-color: whitesmoke;
 	 padding: 20px 0px;
  }
 
@@ -84,7 +83,6 @@ body {
 	 text-decoration: none;
 	 color: grey;
 	 float: left;
-	 border-radius: 
  }
 
  header nav a:hover {

@@ -72,12 +72,11 @@ h1, h2, h3, h4, h5 {
 	 box-sizing: border-box;
 	 display: inline-block;
 	 background-color: whitesmoke;
-	 padding-top: 30px;
+	 padding: 20px 0px;
  }
 
  header nav a {
-	 padding-left: 55px;
-	 margin-bottom: 15px;
+	 padding: 0 55px;
 	 text-decoration: none;
 	 color: grey;
 	 float: left;
@@ -86,7 +85,8 @@ h1, h2, h3, h4, h5 {
  header nav a:hover {
 	 color: black;
  }
-
- header image {
+ header img {
 	 display: inline-block;
+	 padding-left: 40px;
+	 overflow: visible;
  }

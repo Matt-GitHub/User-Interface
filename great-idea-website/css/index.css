@@ -90,3 +90,135 @@ h1, h2, h3, h4, h5 {
 	 padding-left: 40px;
 	 overflow: visible;
  }
+
+/* Intro */
+
+.intro {
+	width: 100%;
+	display: inline-block;
+	padding: 40px;
+}
+
+.intro-text {
+	font-size: 80px;
+	float: left;
+	padding-left: 140px;
+	padding-top: 60px;
+}
+
+.intro a {
+	text-decoration: none;
+	border: 1px solid black;
+	color: grey;
+	padding: 10px 40px;;
+	display: inline;
+	
+}
+
+.intro a:hover {
+	color: black;
+}
+
+.intro img {
+	padding-left: 20px;
+	padding-top: 10px;
+	overflow: visable;
+}
+
+/* horizontal row */
+hr {
+	height: 4px;
+	color: black;
+	background-color: black;
+	width: 93%;
+	margin: 0 auto;
+}
+
+/* Main Content */
+
+/* general */
+
+.title {
+	font-size: 20px;
+	padding-bottom: 12px;
+	font-weight: bold;
+}
+
+
+/* Features and About*/
+.two {
+	padding: 40px 50px;
+}
+
+
+.features {
+	display: inline-block;
+	width: 47%;
+	padding-right: 15px;
+	margin-right: 40px;
+}
+
+.about {
+	display: inline-block;
+	width: 47%;
+}
+
+/* image */ 
+
+.main img {
+	display: inline-block;
+	width: 96%;
+	padding-left: 50px;
+}
+
+/* Services About Vision */
+
+.three {
+	padding: 0 50px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+.services {
+	display: inline-block;
+	width: 30%;
+	padding: 4px;
+	margin-right: 50px;
+}
+
+.product {
+	display: inline-block;
+	width: 30%;
+	padding: 4px;
+	margin-right: 50px;
+}
+
+.vision {
+	display: inline-block;
+	width: 30%;
+	padding: 4px
+}
+
+
+/* Contact */
+
+.contact {
+	padding-left: 50px;
+}
+
+.contact .title {
+	padding-top: 25px;
+}
+
+
+.contact .our-info {
+	display: inline-block;
+}
+
+
+/* Footer */
+
+footer p {
+	text-align: center;
+	padding-top: 50px;
+}

@@ -79,7 +79,7 @@ body {
  }
 
  header nav a {
-	 padding: 0 55px;
+	 padding: 10px 55px 0px 55px;;
 	 text-decoration: none;
 	 color: grey;
 	 float: left;

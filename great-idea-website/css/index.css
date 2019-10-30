@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+body {
+	font-family: 'Noto Serif', serif;
+}
+
 /* Header */
  header {
 	 width: 100%;
@@ -80,11 +84,13 @@ h1, h2, h3, h4, h5 {
 	 text-decoration: none;
 	 color: grey;
 	 float: left;
+	 border-radius: 
  }
 
  header nav a:hover {
 	 color: black;
  }
+
  header img {
 	 display: inline-block;
 	 padding-left: 40px;
@@ -104,6 +110,7 @@ h1, h2, h3, h4, h5 {
 	float: left;
 	padding-left: 140px;
 	padding-top: 60px;
+	font-family: 'Noto Serif', serif;
 }
 
 .intro a {
@@ -118,6 +125,7 @@ h1, h2, h3, h4, h5 {
 .intro a:hover {
 	color: black;
 }
+
 
 .intro img {
 	padding-left: 20px;
@@ -171,11 +179,12 @@ hr {
 	padding-left: 50px;
 }
 
+
 /* Services About Vision */
 
 .three {
 	padding: 0 50px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	padding-top: 20px;
 }
 
@@ -204,10 +213,14 @@ hr {
 
 .contact {
 	padding-left: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+	background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+	width: 50%;
 }
 
 .contact .title {
-	padding-top: 25px;
+	padding-top: 28px;
 }
 
 
@@ -220,5 +233,6 @@ hr {
 
 footer p {
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 80px;
+	margin-bottom: 100px;
 }

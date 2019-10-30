@@ -201,3 +201,24 @@ hr {
 
 
 /* Contact */
+
+.contact {
+	padding-left: 50px;
+}
+
+.contact .title {
+	padding-top: 25px;
+}
+
+
+.contact .our-info {
+	display: inline-block;
+}
+
+
+/* Footer */
+
+footer p {
+	text-align: center;
+	padding-top: 50px;
+}
